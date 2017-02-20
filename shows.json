@@ -1,0 +1,31 @@
+{
+  "the daily show": {
+    "season": 0,
+    "episode": 0,
+    "quality": "1080p",
+    "release": ""
+  },
+  "how to get away with murder": {
+    "season": 3,
+    "episode": 14,
+    "quality": "720p",
+    "release": ""
+  },
+  "walking dead": {
+    "season": 7,
+    "episode": 10,
+    "quality": "1080p",
+    "release": ""
+  },
+  "big bang theory": {
+    "season": 1,
+    "episode": 17,
+    "quality": "720p",
+    "release": ""
+  },
+  "powerless": {
+    "season": 1,
+    "episode": 4,
+    "quality": "720p"
+  }
+}
