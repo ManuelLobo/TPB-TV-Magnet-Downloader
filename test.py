@@ -18,6 +18,7 @@ for x in data:
 	season = int(data[x]["season"])
 	episode = int(data[x]["episode"])
 	quality = data[x]["quality"]
+	release = data[x]["release"]
 	s = str(season)
 	e = str(episode)
 	if season < 10:
@@ -29,7 +30,7 @@ for x in data:
 	if season == 0:
 		x = time.strftime("%Y/%m/%d").replace("/", ".")
 
-	pirate = "https://thepiratebay.org/search/{}+{}+{}/0/99/208".format(show, x, quality)
+	pirate = "https://thepiratebay.org/search/{}+{}+{}+{}/0/99/208".format(show, x, quality, release)
 	headers = {'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"}
 	hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 	       #'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'}
